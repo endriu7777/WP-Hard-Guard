@@ -47,7 +47,7 @@ activity without automatically deleting files or sending website file contents t
 
 
 
-Free and open-source edition 
+Free and open-source edition: 
 
 
 
@@ -63,23 +63,18 @@ A donation does not unlock features, services, priority support or any other ben
 
 
 
-Current release highlights 
+Current release highlights: 
 
 
 
-    Prepared the free WordPress.org submission edition and reduced repository documentation to the files required for  
+    Prepared the free WordPress.org submission edition and reduced repository documentation to the files required for distribution. 
 
-     distribution. 
-
-   Added an optional PayPal donation panel that does not load PayPal scripts, images or tracking pixels before the  
-
-     administrator clicks the button. 
+   Added an optional PayPal donation panel that does not load PayPal scripts, images or tracking pixels before the administrator clicks the button. 
 
    Added WordPress personal-data exporter and eraser integration for locally stored plugin data. 
 
-    Expanded external-service and privacy disclosures for country.is, Cloudflare Turnstile, WordPress.org checksum  
-
-    services, PayPal, administrator-configured SMTP and diagnostics of the administrator’s own website. 
+    Expanded external-service and privacy disclosures for country.is, Cloudflare Turnstile, WordPress.org checksum services, PayPal, 
+      administrator-configured SMTP and diagnostics of the administrator’s own website. 
 
     Updated the English, Polish, German, Spanish, French and Italian translation catalogs for the free edition. 
 
@@ -87,7 +82,7 @@ Current release highlights
 
 
 
-Authentication protection 
+Authentication protection: 
 
 
 
@@ -155,7 +150,7 @@ Two-factor authentication features include:
 
     User-specific email 2FA messages follow the recipient’s selected interface or WordPress language. 
 
- Advanced Audit Log 
+ Advanced Audit Log: 
 
 
 
@@ -192,7 +187,7 @@ The Audit Log includes:
 
     Language-neutral plugin event messages that follow the current Hard Guard Security interface language when displayed. 
 
-Application Password management 
+Application Password management: 
 
 
 
@@ -220,7 +215,7 @@ Features include:
 
     Plaintext Application Password values and password hashes are never stored in Hard Guard Security logs, emails or exports. 
 
-Malware scanner 
+Malware scanner: 
 
 
 
@@ -262,7 +257,7 @@ Files are analysed locally. Website file contents are not sent to an external ma
 
 does not include ClamAV integration. Hard Guard Security never automatically deletes suspicious files. 
 
-WordPress file integrity 
+WordPress file integrity: 
 
 
 
@@ -296,7 +291,7 @@ The check sends only the installed WordPress version and locale to WordPress.org
 
 Website files and their contents are not sent to WordPress.org. 
 
-Read-only file permissions scan 
+Read-only file permissions scan: 
 
 
 
@@ -316,7 +311,7 @@ values.
 
     Safe permission values remain dependent on server ownership, group membership, PHP handler and deployment model. 
 
- Antispam protection 
+ Antispam protection: 
 
 
 
@@ -354,7 +349,7 @@ Strict country and language decisions cannot be weakened by trusted-email score 
 
 thresholds. Comment and registration content is analysed locally and is not sent to an external antispam service. 
 
-GeoIP country access 
+GeoIP country access: 
 
 
 
@@ -422,7 +417,7 @@ Tools include:
 
 SSL certificate and security-header diagnostics perform HTTP or TLS requests to the administrator’s own website. 
 
-System hardening and data hiding 
+System hardening and data hiding: 
 
 
 
@@ -458,7 +453,7 @@ Available controls include:
 
    Generated Nginx configuration examples for manual review and installation. 
 
-Settings export and import 
+Settings export and import: 
 
 
 
@@ -470,13 +465,10 @@ Settings export and import
 
     Import validates supported settings before saving and preserves the existing configuration when validation fails. 
 
-    For safety, import preserves destination-site secrets, disables direct wp-login.php blocking and does not activate  
-
-    server-level System Tweaks automatically. 
+    For safety, import preserves destination-site secrets, disables direct wp-login.php blocking and does not activate server-level System Tweaks automatically. 
 
 
-
-Notifications and SMTP 
+Notifications and SMTP: 
 
 
 
@@ -510,7 +502,7 @@ messages sent by Hard Guard Security and do not replace email delivery for the e
 
 passwords are encrypted when Sodium or OpenSSL is available. 
 
-Privacy-conscious operation 
+Privacy-conscious operation: 
 
 
 
@@ -526,9 +518,7 @@ External connections are limited to features that require them:
 
    SSL, redirect, mixed-content and security-header diagnostics connect only to the administrator’s own website. 
 
-    Site-wide GeoIP access and Antispam country rules send the resolved visitor IP address to country.is when a country  
-
-     lookup is required. 
+   Site-wide GeoIP access and Antispam country rules send the resolved visitor IP address to country.is when a country lookup is required. 
 
     Cloudflare Turnstile communicates with Cloudflare only after an administrator explicitly enables and configures the  
 
@@ -536,9 +526,7 @@ External connections are limited to features that require them:
 
    SMTP communication occurs only after an administrator configures the SMTP service. 
 
-    PayPal is contacted only after an administrator clicks the voluntary donation button; no PayPal scripts, images or  
-
-    tracking pixels load when a Hard Guard Security page is opened. 
+    PayPal is contacted only after an administrator clicks the voluntary donation button; no PayPal scripts, images or tracking pixels load when a Hard Guard Security page is opened. 
 
 Successful country lookups are cached for 24 hours and failures for 10 minutes. Comment, registration and scanned-file  
 
@@ -554,7 +542,7 @@ metadata and matching Antispam and lockout records. Matching Audit Log events ar
 
 security metadata can be retained. 
 
-WordPress Multisite 
+WordPress Multisite: 
 
 
 
@@ -564,7 +552,7 @@ while shared filesystem and server-level hardening settings are available only f
 
 network administrator. The Audit Log can provide an aggregated network view across up to 100 sites. 
 
-Language support 
+Language support: 
 
 
 
@@ -590,7 +578,7 @@ Each administrator can use the WordPress dashboard language or independently for
 
 the Hard Guard Security interface without changing the website language or another administrator’s settings. 
 
-Plugin uninstallation and data cleanup 
+Plugin uninstallation and data cleanup: 
 
 
 
@@ -610,7 +598,7 @@ standard quarantine directories and plugin-created protection files are also rem
 
 
 
-Important limitations 
+Important limitations: 
 
 
 
@@ -682,27 +670,21 @@ Requirements:
 
    Outbound HTTPS access is required for WordPress.org checksums and country.is lookups when the corresponding features are used. 
 
-Installation and initial setup 
+Installation and initial setup: 
 
 
 
-   Install the Hard Guard Security ZIP from Plugins > Add New > Upload Plugin, or install it from WordPress.org after the  
+   Install the Hard Guard Security ZIP from Plugins > Add New > Upload Plugin, or install it from WordPress.org after the plugin has been accepted and      published. 
 
-    plugin has been accepted and published. 
+   Open Hard Guard Security > Settings and choose either the WordPress dashboard language or one of the bundled interface languages for the current administrator. 
 
-   Open Hard Guard Security > Settings and choose either the WordPress dashboard language or one of the bundled  
+   Select the global email language for background alerts and reports; user-specific 2FA codes follow the recipient language. 
 
-    interface languages for the current administrator. 
-
-   Select the global email language for background alerts and reports; user-specific 2FA codes follow the recipient  
-
-    language. 
-
-   Configure trusted proxies before relying on forwarded client-IP headers, test email delivery before enabling email 2FA, and store recovery codes outside WordPress. 
+   Configure trusted proxies before relying on forwarded client-IP headers, test email delivery before enabling email 2FA, and store recovery codes         outside WordPress. 
 
    Create a complete backup and test high-risk changes on a staging website whenever possible. 
 
-Emergency recovery 
+Emergency recovery: 
 
 
 
@@ -716,7 +698,7 @@ underlying configuration is corrected.
 
 
 
-Community support scope 
+Community support scope: 
 
 
 
@@ -734,7 +716,7 @@ party plugin customization or emergency incident response. Support requests must
 
 codes, API secrets or other confidential credentials. 
 
-Included files 
+Included files:
 
 
 
@@ -748,9 +730,7 @@ Included files
 
    GNU GPL v2-or-later license text. 
 
-   Third-party library notices and the applicable MIT and Apache 2.0 license information for the included local QR-code  
-
-    component. 
+   Third-party library notices and the applicable MIT and Apache 2.0 license information for the included local QR-code component. 
 
 
 
@@ -758,6 +738,6 @@ Project and author:
 
 Author: Andrzej Kupis 
 
-Download: 
+Download: https://github.com/endriu7777/WP-Hard-Guard/releases
 
 Voluntary donation: https://www.paypal.com/donate?hosted_button_id=PWTVTARRF9Q2A 
