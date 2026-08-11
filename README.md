@@ -10,28 +10,6 @@ Hard Guard Security is a free and open-source WordPress security and diagnostic 
 
 All included features are available without payment, a license key, a subscription, a trial period or usage quotas. The plugin does not send telemetry, usage statistics, settings, scan results or website files to its author.
 
-> **Current version: 1.13.5**  
-> Requires WordPress **7.0+** and PHP **7.4+**. Tested up to WordPress **7.0**.
-
-## Current release highlights — 1.13.5
-
-The 1.13.x series adds a dedicated **Vulnerability Monitoring** layer for WordPress Core, plugins and themes while keeping matching local and privacy-conscious.
-
-- Added Vulnerability Monitoring as a separate stage of Full and Automatic scans.
-- Detects **Vulnerable** and **Outdated** components as separate findings.
-- Matches installed versions locally against a signed Hard Guard threat-intelligence database.
-- Displays HGSA/CVE identifiers, CVSS severity, fixed versions, source information and known-exploited status when available.
-- Uses Ed25519 signature verification, HTTPS-only downloads, schema validation, size limits and fail-safe retention of the last verified database.
-- Added a signed current-version index for WordPress.org Core, plugins and themes so outdated checks can usually be performed locally without transmitting the site's installed software inventory.
-- Vulnerable components can also be marked Outdated when a newer release is available.
-- Tracks new or changed vulnerability state to avoid repeating unchanged alerts on every automatic scan.
-- Added vulnerability counts to scan status, history, JSON exports and completion notifications.
-- Improved feed verification and result-persistence consistency checks.
-- Fixed MySQL 8.0 compatibility for vulnerability-result storage and added migration support for the legacy database column.
-- Failed vulnerability scans now expose stored database/consistency errors directly in Scanner results.
-
-See the full release history in [GitHub Releases](https://github.com/endriu7777/WP-Hard-Guard/releases).
-
 ## Main features
 
 ### Authentication protection
