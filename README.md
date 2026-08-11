@@ -1,7 +1,6 @@
 # WP-Hard-Guard-Security
 WP Hard Guard – WordPress Security Hardening Plugin
-
-<img width="1536" height="1024" alt="baner wp hard guard" src="https://github.com/user-attachments/assets/2057cb13-fce9-4e3d-a34b-d582ce9b7a82" />
+<img width="1536" height="1024" alt="wp-hard-guard-website-baner" src="https://github.com/user-attachments/assets/dd49d241-8c31-43df-a1c7-5c64e5034e24" />
 
 WordPress Security, 2FA, Malware Scanner & Audit Log
 
