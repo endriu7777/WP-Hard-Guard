@@ -331,7 +331,7 @@ Before changing login URLs, access rules, HTTPS settings, file permissions, quar
 
 ## Free and open-source edition
 
-Hard Guard Security **1.13.5** is a free and open-source repository edition. Every included feature is available to every user without payment, feature activation, a license key, a subscription, a trial period or usage quotas.
+Hard Guard Security is a free and open-source repository edition. Every included feature is available to every user without payment, feature activation, a license key, a subscription, a trial period or usage quotas.
 
 A voluntary PayPal donation option is displayed only on Hard Guard Security administration screens and in the plugin row. A donation does not unlock features, services, priority support or any other benefit.
 
