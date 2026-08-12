@@ -346,6 +346,7 @@ Community support does not include custom development, website repair, malware r
 **Author:** Andrzej Kupis  
 **Downloads and releases:** https://github.com/endriu7777/WP-Hard-Guard/releases  
 **Voluntary donation:** https://www.paypal.com/donate?hosted_button_id=PWTVTARRF9Q2A
+Website: https://wp-hard-guard.ma7.eu/
 
 ## License
 
