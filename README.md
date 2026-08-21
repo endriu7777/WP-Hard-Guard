@@ -2,6 +2,8 @@
 
 **WP Hard Guard – WordPress Security Hardening Plugin**
 
+Free WordPress Security Plugin
+
 <img width="1536" height="1024" alt="Hard Guard Security for WordPress" src="https://github.com/user-attachments/assets/dd49d241-8c31-43df-a1c7-5c64e5034e24" />
 
 **WordPress Security, 2FA, Malware Scanner, Vulnerability Monitoring & Audit Log**
